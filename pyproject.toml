@@ -1,0 +1,6 @@
+[project]
+name = "Spelling Bee Solver"
+version = "0.1"
+description = "A small program to solve NYT's Spelling Bee game."
+readme = "README.md"
+
