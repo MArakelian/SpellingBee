@@ -25,14 +25,16 @@ for l in range(0, 6):
     next_letter = input("Please input a required letter and press Enter: ")
     required_letters += next_letter
 
-# Add magic_letter to required_letters (so you don't filter out words with magic_letter in last loop)
+# Add magic_letter to required_letters 
+# (so you don't filter out words with magic_letter in last loop)
 required_letters += magic_letter
 
 
 solutions = []
 non_solutions = []
 
-# eliminate words that contain letters that aren't in our list of required letters
+# eliminate words that contain letters 
+# that aren't in our list of required letters
 # THIS DOES NOT WORK
 
 for word in words_with_letter:
